@@ -19,13 +19,13 @@
     height: 100%;
 }
 
-.slider:nth-child(1){
+.slider:nth-child(2){
     background-color: red;
 }
-.slider:nth-child(2){
+.slider:nth-child(3){
     background-color: green;
 }
-.slider:nth-child(3){
+.slider:nth-child(4){
     background-color: yellow;
 }
 
@@ -43,8 +43,27 @@
     font-size: 50px;
     text-align: center;
     text-transform: uppercase;
-    color: yellow;
+    color: green;
 }
 .slider:nth-child(3)>h2{
-    color: green;
+    color: yellow;
+}
+
+.page{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 1;
+}
+.page>p{
+    float: left;
+    padding: 20px 24px;
+    margin: 5px;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+.page>p>a{
+    font-weight: 900;
+    text-decoration: none;
 }
